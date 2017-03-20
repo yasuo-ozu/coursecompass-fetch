@@ -1,0 +1,23 @@
+{
+  "name": "coursecompass-fetch",
+  "version": "1.0.0",
+  "description": "Syllabus fetching software for Course Compass",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasuo-ozu/coursecompass-fetch.git"
+  },
+  "author": "Yasuo Ozu <yasuo@ozu.email>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yasuo-ozu/coursecompass-fetch/issues"
+  },
+  "homepage": "https://github.com/yasuo-ozu/coursecompass-fetch#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.81.0"
+  }
+}

@@ -6,7 +6,14 @@ This is a helper software for Course Compass, which fetch syllabus data from Was
 
 ```bash
 
-# under construction...
+# 1. Search Gakubu you want to fetch
+node app searchGakubu 基幹理工
+
+#    Or list all Gakubu(s)
+node app listGakubu
+
+# 2. Get Page ID(pid)s to get clas details
+node app fetchGakubu ???? > dest/g_????.txt
 
 ```
 
