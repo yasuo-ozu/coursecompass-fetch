@@ -1,4 +1,4 @@
-# ConrseCompass-Fetch
+# CourseCompass-Fetch
 
 This is a helper software for Course Compass, which fetch syllabus data from Waseda university server.
 
