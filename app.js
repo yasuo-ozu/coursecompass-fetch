@@ -50,7 +50,7 @@ if (process.argv[2] == "searchGakubu" && process.argv[3]) {
 				if (pidList.length) {
 					loop();
 				} else {
-					process.stdout.write(JSON.stringify(res));
+					process.stdout.write(JSON.stringify(res, null, "\t"));
 				}
 			} else {
 				process.stderr.write("error: some error occurs when fetching or parsing " + pid + "\n");
