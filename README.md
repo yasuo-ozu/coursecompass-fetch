@@ -21,8 +21,8 @@ This is a helper software for Course Compass, which fetch syllabus data from Was
 - Only Admin users of Course Compass can apply some data.
 - Applying data will immediately affect to all users in Course Compass.
 - Being Admin:
--- Respect the provacy of others.
--- Think before you type.
--- With great power comes great responsibility.
--- Our purpose is neither cheating nor defeating the university---because we love Waseda university. Respect all of the staffs and understand the goal of education.
+1. Respect the provacy of others.
+1. Think before you type.
+1. With great power comes great responsibility.
+1. Our purpose is neither cheating nor defeating the university---because we love Waseda university. Respect all of the staffs and understand the goal of education.
 
