@@ -5,6 +5,8 @@ This is a helper software for Course Compass, which fetch syllabus data from Was
 ## How to fetch data
 
 ```bash
+# 0. Initialize
+npm init
 
 # 1. Search Gakubu you want to fetch
 node app searchGakubu 基幹理工
@@ -19,7 +21,7 @@ node app fetchGakubu 111973 > dest/g_111973.txt
 node app fetchClass 2600001002012017260000100226
 
 # 4. dump all data
-cat dest/g_111973.txt | node app fetchClass - > dest/o_111973.txt
+cat dest/g_111973.txt | node app fetchClass - > dest/o_111973.json
 
 ```
 

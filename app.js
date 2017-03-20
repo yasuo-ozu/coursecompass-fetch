@@ -62,9 +62,9 @@ if (process.argv[2] == "searchGakubu" && process.argv[3]) {
 		let str = "", ind;
 		process.stdin.on('data', function(chunk) {
 			str += chunk;
-			if (ind = str.indexOf("\n") > -1) {
-				let line = str.splice(0, ind);
-				str.splice(0, 1);
+			while ((ind = str.indexOf("\n")) > -1) {
+				let line = str.slice(0, ind);
+				str = str.slice(ind + 1);
 				pidList.push(line);
 			}
 		});
