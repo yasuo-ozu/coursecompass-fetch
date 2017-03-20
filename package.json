@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/yasuo-ozu/coursecompass-fetch#readme",
   "dependencies": {
-    "fs": "0.0.1-security",
     "request": "^2.81.0"
   }
 }

@@ -13,7 +13,13 @@ node app searchGakubu 基幹理工
 node app listGakubu
 
 # 2. Get Page ID(pid)s to get clas details
-node app fetchGakubu ???? > dest/g_????.txt
+node app fetchGakubu 111973 > dest/g_111973.txt
+
+# 3. Preview JSON output
+node app fetchClass 2600001002012017260000100226
+
+# 4. dump all data
+cat dest/g_111973.txt | node app fetchClass - > dest/o_111973.txt
 
 ```
 
