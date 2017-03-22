@@ -26,11 +26,11 @@ cat dest/g_111973.txt | node app fetchClass - > dest/o_111973.json
 ```
 
 ## How to apply data
-1. Open Admin console `https://example.com/admin`
-1. Click `データの一括登録`
-1. Register properties mapping
-1. Upload the output file (json)
-1. Run
+
+```bash
+find dest/o_* | xargs node converter >> dest/mongo_all.json
+mongoimport --db coursecompass --collection classes --file mongo_all.json
+```
 
 ## Important
 - Only Admin users of Course Compass can apply some data.
